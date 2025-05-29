@@ -3,10 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Shubham's Sample Site</title>
+  <title>Happy Birthday Saurabh 🎉</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
+  <!-- 🔊 Background Music -->
+  <audio autoplay loop>
+    <source src="assets/music.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- 🌟 Header -->
   <header>
     <nav>
       <h1>Shubham 🚀</h1>
@@ -18,29 +26,7 @@
     </nav>
   </header>
 
-  <main class="hero">
-    <h2>Welcome to My Website</h2>
-    <p>I’m preparing for IMU CET and learning web dev like a champ! 🌊📚</p>
-    <button onclick="showMessage()">Click Me!</button>
-    <p id="message"></p>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Shubham's Web Zone</p>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Happy Birthday Saurabh 🎉</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+  <!-- 🧁 Birthday Section -->
   <div class="container">
     <h1 class="glow">🎉 Happy Birthday Saurabh! 🎂</h1>
     <p class="quote">"Count your life by smiles, not tears. Count your age by friends, not years."</p>
@@ -50,20 +36,22 @@
     <button onclick="showWish()">Click for a Special Wish</button>
     <p id="wish" class="hidden">May all your dreams sail far and shine like stars. 🌠 – From Shubham 🚢</p>
   </div>
+ <audio autoplay loop>
+    <source src="assets/music.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+  <!-- 🖼️ Slideshow -->
+  <div class="slideshow-container">
+    <img id="slideshow" src="assets/images/1.jpg.jpg" alt="Birthday Memories">
+  </div>
 
+  <!-- 🧠 Slideshow + Wish Script -->
+  <script src="script.js"></script>
   <script>
     function showWish() {
       document.getElementById("wish").classList.remove("hidden");
     }
   </script>
+
 </body>
 </html>
-<div class="slideshow-container">
-  <img id="slideshow" src="assets/images/1.jpg.jpg" alt="Birthday Memories">
-</div>
-
-<audio autoplay loop>
-  <source src="assets/music.mp3" type="audio/mp3">
-  Your browser does not support the audio element.
-</audio>
-
