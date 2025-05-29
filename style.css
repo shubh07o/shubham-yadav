@@ -67,3 +67,62 @@ footer {
   bottom: 0;
   width: 100%;
 }
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #fceabb, #f8b500);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  color: #333;
+}
+
+.container {
+  padding: 50px 20px;
+}
+
+.glow {
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 0 0 10px #ff4081, 0 0 20px #ff4081, 0 0 30px #ff4081;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+.quote {
+  font-size: 1.2rem;
+  margin: 20px auto;
+  max-width: 600px;
+  color: #444;
+}
+
+button {
+  background: #ff4081;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #e91e63;
+}
+
+#wish {
+  font-size: 1.1rem;
+  margin-top: 30px;
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+}
+
+.hidden {
+  display: none;
+}
