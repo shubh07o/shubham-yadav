@@ -53,3 +53,19 @@
 
 </body>
 </html>
+<button onclick="toggleMusic()">🔊 Play / Pause</button>
+
+<audio id="bgMusic" loop>
+  <source src="assets/music.mp3" type="audio/mp3">
+</audio>
+
+<script>
+  function toggleMusic() {
+    const music = document.getElementById('bgMusic');
+    if (music.paused) {
+      music.play();
+    } else {
+      music.pause();
+    }
+  }
+</script>
