@@ -7,11 +7,6 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-  <!-- 🔊 Background Music -->
-<audio autoplay loop muted>
-  <source src="assets/music.mp3" type="audio/mp3" />
-</audio>
   <!-- 🌟 Header -->
   <header>
     <nav>
@@ -23,49 +18,3 @@
       </ul>
     </nav>
   </header>
-
-  <!-- 🧁 Birthday Section -->
-  <div class="container">
-    <h1 class="glow">🎉 Happy Birthday Saurabh! 🎂</h1>
-    <p class="quote">"Count your life by smiles, not tears. Count your age by friends, not years."</p>
-    <p class="quote">"Another adventure-filled year awaits you. Happy birthday!"</p>
-    <p class="quote">"Your vibe is unmatched. Keep glowing up ✨"</p>
-
-    <button onclick="showWish()">Click for a Special Wish</button>
-    <p id="wish" class="hidden">May all your dreams sail far and shine like stars. 🌠 – From Shubham 🚢</p>
-  </div>
- <audio autoplay loop>
-    <source src="assets/music.mp3" type="audio/mp3">
-    Your browser does not support the audio element.
-  </audio>
-  <!-- 🖼️ Slideshow -->
-  <div class="slideshow-container">
-    <img id="slideshow" src="assets/images/1.jpg.jpg" alt="Birthday Memories">
-  </div>
-
-  <!-- 🧠 Slideshow + Wish Script -->
-  <script src="script.js"></script>
-  <script>
-    function showWish() {
-      document.getElementById("wish").classList.remove("hidden");
-    }
-  </script>
-
-</body>
-</html>
-<button onclick="toggleMusic()">🔊 Play / Pause</button>
-
-<audio id="bgMusic" loop>
-  <source src="assets/music.mp3" type="audio/mp3">
-</audio>
-
-<script>
-  function toggleMusic() {
-    const music = document.getElementById('bgMusic');
-    if (music.paused) {
-      music.play();
-    } else {
-      music.pause();
-    }
-  }
-</script>
