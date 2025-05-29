@@ -126,10 +126,3 @@ button:hover {
 .hidden {
   display: none;
 }
-.birthday-video {
-  max-width: 90%;
-  margin: 30px auto;
-  display: block;
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.2);
-}
